@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #e23737;
-    --secondary-color: #c27878;
-    --tertiary-color: #612a2a;
-    --quaternary-color: #b40b0b;
+    --primary-color: #bebebe;
+    --secondary-color: #ffffff;
+    --tertiary-color: #7e8383;
+    --quaternary-color: #868686;
     --font-primary: Georgia, 'Times New Roman', Times, serif;
     --font-secondary: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -141,12 +141,12 @@ main {
     border-radius: 5px;
 }
 
-.about-picture:hover {
+/*.about-picture:hover {
     margin: 30px 0;
     background-image: url(../images/NatallieImage.png) ;
     background-size: contain;
     height: 230px;
-}
+}*/
 
 /* projects styling*/
 .grid-container {
@@ -231,7 +231,7 @@ main {
 
 /* footer styling */
 footer {
-    height: 60px;
+    height: 70px;
     border-top: 4px solid var(--quaternary-color);
     background: var(--tertiary-color);
     text-align: center;
@@ -240,7 +240,7 @@ footer {
 footer div {
     color: var(--secondary-color);
     font-family: var(--font-secondary);
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 30px;
 }
 
@@ -298,7 +298,7 @@ footer div {
         width: 100%;
         text-align: center;
         border-right: none;
-        border-bottom: solid rgb(80, 76, 76) 4px;
+        border-bottom: solid rgb(66, 66, 66) 4px;
         margin: 20px 0;
         padding: 0;
         padding-bottom: 10px;
